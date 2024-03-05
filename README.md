@@ -16,29 +16,6 @@ Studystack is a platform featuring a comprehensive collection of recorded lectur
 - **mongoose:** ODM library for MongoDB and Node.js.
 - **nodemon:** Utility for monitoring changes and restarting the server.
 
-### Prerequisites
-
-- Node.js installed
-- MongoDB installed and running
-
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/node-express-mongodb-auth.git
-2. Install dependencies:
-    ``` bash
-    npm install
-3. Set up your MongoDB database and update the connection string in config.js:
-
-     ``` 
-        .env File
-        module.exports = {
-         mongoURI: "your-mongodb-connection-string",
-        jwtSecret: "your-secret-key",
-        }; 
-    ```
 
 #  API Endpoints 
 
@@ -64,6 +41,29 @@ PUT /api/user/:id
 DELETE /api/user/:id
 ```
 
+### Prerequisites
+
+- Node.js installed
+- MongoDB installed and running
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/node-express-mongodb-auth.git
+2. Install dependencies:
+    ``` bash
+    npm install
+3. Set up your MongoDB database and update the connection string in config.js:
+
+     ``` 
+        .env File
+        module.exports = {
+         mongoURI: "your-mongodb-connection-string",
+        jwtSecret: "your-secret-key",
+        }; 
+    ```
 - do one thing before going to start project you have to do first `npm i`
 
 - then add .env file to the your main directory
